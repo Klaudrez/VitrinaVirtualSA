@@ -1,0 +1,233 @@
+.fondo{
+    background-color: #235EA5;
+}
+
+.fondocarrusel{
+  background-color:#2ec4b6;
+}
+
+.fondobody{
+  background-color: #eef4ed;
+}
+
+.fondoicon{
+    color: #3E6CA3;
+}
+
+.logo{
+  height: 8px;
+}
+
+.boton{
+    background-color: #4B83C5;
+}
+
+button:hover{
+    background-color: #84B4EC;
+}
+
+.fondo-boton-contacto{
+    background-color:#05668d;
+}
+
+.fondoimagen{
+    background-color: rgba(0,0,0,0.55) !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  }
+  
+  .card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 0;
+  }
+html{
+    position: relative;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+.fondoredes{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fondoredes:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer{
+    overflow: hidden;
+    transition: 0.4s;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    z-index: 99;
+    background: #05668d;
+}
+
+#navbar {
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+  }
+#menulat {
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    top: 50px;
+    z-index: 99;
+  }
+  #menulatder {
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    top: 50px;
+    z-index: 99;
+  }
+
+.imgsolidaridad{
+    height: 256px;
+    width: 256px;
+}
+
+.textosolidario{
+    font-weight: normal;
+}
+
+.cardsolidario{
+    border-radius: 15px;
+}
+
+.cardproducto{
+  border-radius: 8px;
+}
+
+
+.cardcategorias{
+    border-radius: 8px;
+}
+
+.card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 0;
+  }
+
+
+@media screen and (max-width: 769px) {
+    .ocultar-div{
+    display:none;
+    }
+}
+.textosolidarioinfo{
+  font-size: 15px;
+}
+
+.precio{
+  font-size: 25px;
+  color: red;
+}
+
+.cont{
+  position: relative;
+  height: 256px;
+}
+
+.rbordes{
+  border-radius: 20px;
+}
+
+.fondoredesinfo{
+  text-decoration: none;
+  color: #5A142E;
+}
+
+.centrar {
+  vertical-align: middle;
+}
+
+.publicacion{
+  height: 256px;
+}
+
+/* Estilo de las estrellas */
+
+#form {
+  width: 500px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+.icono{
+  font-size: 25px;
+}
+
+.estrella{
+  font-size: 26px;
+}
+
+.estrella2{
+  font-size: 35px;
+}
+
+.destacado{
+  background-color: gold;
+}
+
+.scroll1 {
+  overflow: scroll;
+  height: 250px;
+}
+
+.scroll2 {
+  overflow: scroll;
+  height: 900px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
